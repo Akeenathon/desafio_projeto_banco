@@ -1,4 +1,4 @@
-extract = 0
+eextract = 0
 withdraw_limit = 3
 withdraw_register = []
 deposit_register = []
@@ -88,7 +88,7 @@ while True:
     elif option == '4':
         break
 
-    elif option not in ['1', '2', '3', '4']:
+    else:
         print('\033[31mOpção inválida, por favor escolha entre 1 e 4.\033[m')
 
 print('\033[35m Obrigado por usar o DIO Bank!\033[m')
